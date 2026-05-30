@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Identidades estéticas</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f0ff;
+    color:#2d2340;
+    padding:40px;
+}
+
+header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+header h1{
+    color:#4b2e83;
+    margin-bottom:15px;
+    font-size:38px;
+}
+
+header p{
+    max-width:900px;
+    margin:auto;
+    line-height:1.7;
+    color:#6a5a85;
+}
+
+.back-link{
+    display:inline-block;
+    margin-bottom:25px;
+    text-decoration:none;
+    color:#4b2e83;
+    font-weight:bold;
+    background:white;
+    padding:10px 18px;
+    border-radius:25px;
+    box-shadow:0 5px 15px rgba(60,40,100,.12);
+}
+
+.back-link:hover{
+    background:#eadfff;
+}
+
+.intro{
+    max-width:950px;
+    margin:0 auto 40px;
+    background:#4b2e83;
+    color:white;
+    padding:28px;
+    border-radius:24px;
+    line-height:1.7;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,300px));
+    justify-content:center;
+    gap:24px;
+    max-width:1400px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:0 8px 22px rgba(60,40,100,.12);
+
+    display:flex;
+    flex-direction:column;
+}
+
+.card img{
+    width:100%;
+    aspect-ratio:4/5;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+}
+
+.card-content{
+    padding:20px;
+    min-height:190px;
+}
+
+.card-content h2{
+    color:#4b2e83;
+    margin-bottom:10px;
+}
+
+.card-content p{
+    line-height:1.6;
+}
+
+.question{
+    max-width:900px;
+    margin:40px auto 0;
+    background:#2d2340;
+    color:white;
+    padding:30px;
+    border-radius:24px;
+    text-align:center;
+    line-height:1.7;
+}
+
+.question strong{
+    color:#d7c3ff;
+}
+
+</style>
+
+</head>
+<body>
+
+<a href="index.html" class="back-link">
+← Volver al mapa mental
+</a>
+
+<header>
+    <h1>Identidades estéticas</h1>
+
+    <p>
+        Las identidades estéticas son formas visuales mediante las cuales las
+        personas comunican quiénes son o quiénes desean ser. A través de la ropa,
+        las marcas, el maquillaje y las redes sociales, el consumo se convierte
+        en una herramienta para construir pertenencia, reconocimiento y diferenciación.
+    </p>
+</header>
+
+<section class="intro">
+
+<p>
+Según Roberta Sassatelli, consumir no significa únicamente adquirir objetos:
+también implica producir significados sobre uno mismo. Las estéticas digitales
+funcionan como repertorios visuales que permiten a las personas expresar
+valores, aspiraciones e imaginarios culturales.
+</p>
+
+</section>
+
+<section class="gallery">
+
+<article class="card">
+<img src="images/luxury-girl.jpg" alt="Luxury Girl">
+
+<div class="card-content">
+<h2>Luxury Girl</h2>
+
+<p>
+Asocia el éxito con marcas de lujo, viajes, exclusividad y consumo aspiracional.
+Construye una imagen vinculada al prestigio económico.
+</p>
+</div>
+</article>
+
+<article class="card">
+<img src="images/clean-girl.webp" alt="Clean Girl">
+
+<div class="card-content">
+<h2>Clean Girl</h2>
+
+<p>
+Propone una imagen minimalista, pulida y aparentemente natural. Se relaciona
+con bienestar, productividad y autocuidado.
+</p>
+</div>
+</article>
+
+<article class="card">
+<img src="images/streetwear.jpeg" alt="Streetwear">
+
+<div class="card-content">
+<h2>Streetwear</h2>
+
+<p>
+Inspirada en la cultura urbana, el skate, el hip-hop y las colaboraciones entre
+marcas. Valora la autenticidad y la identidad colectiva.
+</p>
+</div>
+</article>
+
+<article class="card">
+<img src="images/old-money.jpg" alt="Old Money">
+
+<div class="card-content">
+<h2>Old Money</h2>
+
+<p>
+Retoma códigos asociados a las élites tradicionales: sobriedad, discreción,
+ropa clásica y capital cultural heredado.
+</p>
+</div>
+</article>
+
+<article class="card">
+<img src="images/coquette.webp" alt="Coquette">
+
+<div class="card-content">
+<h2>Coquette</h2>
+
+<p>
+Estética romántica que recupera elementos asociados con la feminidad,
+la delicadeza y la nostalgia.
+</p>
+</div>
+</article>
+
+</section>
+
+<section class="question">
+
+<p>
+<strong>Pregunta para discutir:</strong>
+¿Elegimos libremente estas identidades estéticas o son formas de pertenencia
+que aprendemos a través de los medios, las marcas y las redes sociales?
+</p>
+
+</section>
+
+</body>
+</html>
